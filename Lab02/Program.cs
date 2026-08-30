@@ -72,7 +72,7 @@ namespace Lab02
             double critMultiplierPlayer = 45.50;
             bool isPlayer = true;
 
-            Console.WriteLine("===== BOSS STATUS: INITIAL =====");
+            Console.WriteLine("===== PLAYER STATUS: INITIAL =====");
             Console.WriteLine($"Name: {playerName}");
             Console.WriteLine($"Rank: {rankPlayer}");
             Console.WriteLine($"HP: {currentHpPlayer} / {maxHpPlayer}");
@@ -89,7 +89,7 @@ namespace Lab02
             double critMultiplierNpc = 0.50;
             bool isNpc = true;
 
-            Console.WriteLine("===== BOSS STATUS: INITIAL =====");
+            Console.WriteLine("===== NPC STATUS: INITIAL =====");
             Console.WriteLine($"Name: {npcName}");
             Console.WriteLine($"Rank: {rankNpc}");
             Console.WriteLine($"HP: {currentHpNpc} / {maxHpNpc}");
@@ -106,7 +106,7 @@ namespace Lab02
             double critMultiplierMpc = 1.50;
             bool isMpc = true;
 
-            Console.WriteLine("===== BOSS STATUS: INITIAL =====");
+            Console.WriteLine("===== MPC STATUS: INITIAL =====");
             Console.WriteLine($"Name: {mpcName}");
             Console.WriteLine($"Rank: {rankMpc}");
             Console.WriteLine($"HP: {currentHpMpc} / {maxHpMpc}");
