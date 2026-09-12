@@ -24,7 +24,7 @@ namespace Lab04
             Console.WriteLine("+------------------------------+");
             Console.Write("Choose difficlty (1-3): ");
             int difficulty = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Difficulty {difficulty} selected. Good Luck out there...\");
+            Console.WriteLine($"Difficulty {difficulty} selected. Good Luck out there...");
             //_____________________________________________________________________________
             Console.WriteLine("+------------------------------+");
             Console.WriteLine("|         ITEM SHOP            |");
@@ -33,6 +33,17 @@ namespace Lab04
             bool isValid = int.TryParse(Console.Readline(), out int quantity);
             Console.WriteLine($"Valid input: {isValid}");
             Console.WriteLine($"Quantity: {quantity}");
+            //_____________________________________________________________________________
+            Console.WriteLine("+------------------------------+");
+            Console.WriteLine("|         NEW SAVE FILE         |");
+            Console.WriteLine("+------------------------------+");
+            Console.Write("Enter save name: ");
+            string saveName = Console.ReadLine();
+            Console.Write("Choose save slot (1-3): ");
+            bool slotOk = int.TryParse(Console.ReadLine(), out int slot);
+            Console.WriteLine($"Save name: {saveName}");
+            Console.WriteLine($"Valid input: {slotOk}");
+            Console.WriteLine($"Slot: {slot}");
 
 
         }
